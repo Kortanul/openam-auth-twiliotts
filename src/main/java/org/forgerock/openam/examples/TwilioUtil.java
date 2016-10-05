@@ -16,8 +16,8 @@ public class TwilioUtil {
 
 	protected static final Debug debug = Debug.getInstance(TwilioUtil.class.getName());
 
-	private String accountSid; //ACb03fc9d110e1045b9e37df53c23a6266
-	private String tokenId; //a752681c48f801bb40ab5862f8dcf567
+	private String accountSid;
+	private String tokenId;
 
 	public TwilioUtil(String accountSid, String tokenId) {
 		this.accountSid = accountSid;
